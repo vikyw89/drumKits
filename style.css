@@ -11,10 +11,20 @@ body,html {
   font-family: sans-serif;
 }
 
+.instruction {
+  padding-top: 100px;
+  font-size: xx-large;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(2, 133, 150, 0.834);
+}
+
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 80vh;
   align-items: center;
   justify-content: center;
   background-color: rgba(2, 133, 150, 0.834);
